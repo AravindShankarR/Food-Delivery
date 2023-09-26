@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+
+                android:layout_width="113dp"
+                android:layout_height="108dp"
+                android:elevation="8dp"
+                android:padding="10dp"
+                android:id="@+id/category_image" android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true" android:layout_marginTop="0dp" android:layout_marginStart="2dp">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+        <TextView android:layout_width="110dp" android:layout_height="wrap_content"
+                  android:text="@string/biriyani"
+                  android:layout_marginTop="108dp"
+                  android:textAlignment="center"
+                  android:textSize="16sp"
+                  android:id="@+id/category_foodname"
+                  android:fontFamily="@font/dosis_medium"
+                  android:layout_alignParentTop="true"/>
+</RelativeLayout>

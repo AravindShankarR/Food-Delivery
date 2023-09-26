@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/img_3"
+        android:id="@+id/signin_page">
+
+    <EditText
+            android:id="@+id/user_name"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/custom_signin"
+            android:drawableStart="@drawable/baseline_person_add_alt_1_24"
+            android:drawablePadding="8dp"
+            android:hint="Username"
+            android:padding="8dp"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/cardview_light_background"
+            android:autofillHints="" android:layout_centerHorizontal="true" android:layout_alignParentTop="true"
+            android:layout_marginTop="154dp" android:layout_marginStart="0dp" android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"/>
+    <EditText
+            android:id="@+id/user_pass"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/custom_signin"
+            android:drawableStart="@drawable/baseline_lock_24"
+            android:drawablePadding="8dp"
+            android:hint="Password"
+            android:padding="8dp"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/cardview_light_background"
+            android:autofillHints="" android:layout_centerHorizontal="true" android:layout_alignParentTop="true"
+            android:layout_marginTop="236dp" android:layout_marginStart="0dp" android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"/>
+    <Button android:layout_width="300dp" android:layout_height="50dp"
+            android:backgroundTint="@color/black"
+
+            android:id="@+id/login_button"
+            android:textColor="@color/white"
+            android:text="Login"
+            android:textSize="16sp" android:layout_alignParentTop="true"
+            android:layout_marginTop="315dp" android:layout_centerInParent="true"/>
+
+
+</RelativeLayout>
